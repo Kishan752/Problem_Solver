@@ -1,0 +1,20 @@
+<template>
+    <lightning-card title="Component to get High Amount of Data" icon-name="custom:custom9">
+        <lightning-layout multiple-rows>
+            
+            <lightning-layout-item size="6" padding="around-small">
+                <div class="slds-m-around_medium">
+                    <lightning-button label="GetData" variant="brand" onclick={handleFiretoVF}></lightning-button>
+                </div>
+ 
+            </lightning-layout-item>
+            
+ 
+            <lightning-layout-item size="12" padding="around-small">
+               
+                <iframe height="400px" width="100%" src="/apex/lwcVfRemoting" style="display:none;"></iframe>
+            </lightning-layout-item>
+ 
+        </lightning-layout>
+    </lightning-card>
+</template>
